@@ -18,11 +18,10 @@ The test file (`test.csv`) contains:
 
 ## ⚙️ Features
 
-- Cleaned and preprocessed dataset.
-- Built and trained a classification model (e.g., Logistic Regression, Random Forest, etc.).
-- Evaluated model performance using accuracy, precision, recall, and F1-score.
-- Streamlit-based UI for easy prediction.
-- Simple and clean interface to input user health data and get predictions instantly.
+- 🧠 Trained Decision Tree Classifier on MNIST-style data
+- 🔍 Grid Search for best accuracy
+- 🖼️ Streamlit-based UI to upload and test custom digit images
+- ⚙️ Preprocessing pipeline to resize, grayscale, and invert input images
 
 ---
 
@@ -31,8 +30,8 @@ The test file (`test.csv`) contains:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/diabetic-predictor.git
-cd diabetic-predictor
+git clone https://github.com/your-username/Digit-Recognizer.git
+cd Digit-Recognizer
 ```
 
 ### 2. Create a virtual environment
@@ -51,13 +50,6 @@ pip install -r streamlit_app/requirements.txt
 ```bash
 streamlit run app.py
 ```
-
----
-
-# 🧠 Machine Learning Model
-
-- **Model Used:** Logistic Regression
-- **Testing Accuracy:** 78.57%
 
 ---
 
